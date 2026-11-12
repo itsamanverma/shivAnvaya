@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# Next.js build output
+.next/
+out/
+build/
+
+# TypeScript incremental cache
+*.tsbuildinfo
+
+# Testing
+coverage/
+playwright-report/
+test-results/
+
+# Environment files (may contain secrets; keep the example file)
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Editor and OS files
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.DS_Store
+Thumbs.db
+*.swp
+
+# Vercel and Sentry local config
+.vercel
+.sentry-local-*
